@@ -786,7 +786,7 @@ The Pandora should be connected to the power supply, the computer (Ethernet for 
 
 2. Connection between the interface box and the IPC:
 
-   One ethernet cable is required to connect the interface box and the IPC. 
+   One ethernet cable is required to connect the interface box to the IPC. 
 
 3. Connection between the interface box and GPS:
 
@@ -806,7 +806,7 @@ The Pandora should be connected to the power supply, the computer (Ethernet for 
 
  ![online_icon](images/online_icon.png)Pandora Manual can be found on this webpage:
 
-      [http://www.hesaitech.com/](http://www.hesaitech.com/)
+    [http://www.hesaitech.com](http://www.hesaitech.com)
 
 ### Installing the Cameras
 
