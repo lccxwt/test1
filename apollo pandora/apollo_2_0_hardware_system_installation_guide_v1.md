@@ -805,8 +805,7 @@ The Pandora should be connected to the power supply, the computer (Ethernet for 
    ![Wiring_Schematics_pandora2](images/Pandora_PP6_wiring.png)
 
  ![online_icon](images/online_icon.png)Pandora Manual can be found on this webpage:
-
-    [http://www.hesaitech.com](http://www.hesaitech.com)
+[http://www.hesaitech.com](http://www.hesaitech.com)
 
 ### Installing the Cameras
 
