@@ -778,13 +778,13 @@ A customized mounting structure is required to successfully mount an Hesai Pando
 
 Each Pandora includes a cable bundle to connect the LiDAR to the power supply, the computer (Ethernet for data transfer) and the GPS timesync source. 
 
-![Pandora_cable](images/pandora_cable.png)
+   ![Pandora_cable](images/pandora_cable.png)
 
 1. Connection to the Pandora
 
    Connect the power and signal cable to the matching ports on the Pandora interface box.
 
-   ![Power_Cabling](images/interface_box_connection.png) 
+   ![Power_Cabling](images/interface_box_connection.jpg) 
 
 
 2. Connection to Power Source
@@ -813,6 +813,7 @@ Each Pandora includes a cable bundle to connect the LiDAR to the power supply, t
 
    ![Wiring_Schematics_pandora2](images/Pandora_PP6_wiring.png)
 
+   The pinout table for Pandora is shown below.
    ![Pandora_pin](images/Pandora_pinout_table.png)
 
  ![online_icon](images/online_icon.png)Pandora Manual can be found on this webpage:
