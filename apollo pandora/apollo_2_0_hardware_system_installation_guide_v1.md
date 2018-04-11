@@ -260,12 +260,12 @@ The 40 line LiDAR system **Pandora** is available from Hesai Photonics Technolog
 - 23° Vertical FOV (-16° to 7°)
 - 0.2° angular resolution (azimuth)
 - <2cm accuracy
-- Vertical Resolution: 0.33° ( from -6° to +2°); 1° (from -16° to -6°，+2° to +7°)
+- Vertical Resolution: 0.33° ( from -6° to +2°); 1° (from -16° to -6°, +2° to +7°)
 - User selectable frame rate
 - 360° surrounding view with 4 mono cameras and long disatance front view with 1 color camera
 
 ![online](images/online_icon.png)Webpage for Hesai Pandora:
-[http://www.hesaitech.com](http://www.hesaitech.com)
+[http://www.hesaitech.com](http://www.hesaitech.com) (coming soon)
 
 ## Cameras
 
@@ -702,7 +702,7 @@ Each HDL-64E S3 LiDAR includes a cable bundle to connect the LiDAR to the power 
 
 3. Conection to IPC
 
-   The connection to the IPC is through an ethernet cable. Plug the ethernet connector in the cable bundle into an ethernet port on the IPC
+   The connection to the IPC is through an ethernet cable. Plug the ethernet connector in the cable bundle into an ethernet port on the IPC.
 
 4. Connection to GPS:
 
@@ -776,19 +776,28 @@ A customized mounting structure is required to successfully mount an Hesai Pando
 
 ##### Wiring
 
-The Pandora should be connected to the power supply, the computer (Ethernet for data transfer) and the GPS timesync source through an interface box.
+Each Pandora includes a cable bundle to connect the LiDAR to the power supply, the computer (Ethernet for data transfer) and the GPS timesync source. 
 
-   ![Interface_box](images/interface_box.png)
+![Pandora_cable](images/pandora_cable.png)
 
-1. Connection between the interface box and the power supply:
+1. Connection to the Pandora
 
-   The power cable including two wires should be made by the user. One end of the cable is connected to the interface box DC-005 jack and the other is connected to the power supply. Pandora requires about 3A at 12V. 
+   Connect the power and signal cable to the matching ports on the Pandora interface box.
 
-2. Connection between the interface box and the IPC:
+   ![Power_Cabling](images/interface_box_connection.png) 
 
-   One ethernet cable is required to connect the interface box to the IPC. 
 
-3. Connection between the interface box and GPS:
+2. Connection to Power Source
+
+   The Pandora requires about 3A at 12V. To connect the power source, make full contact with the wires and tighten the screws. 
+
+   ![Pandora_Power_Cable](images/Pandora_PowerCable.png)
+
+3. Conection to IPC
+
+   The connection to the IPC is through an ethernet cable. Plug the ethernet connector in the cable bundle into an ethernet port on the IPC.
+
+4. Connection to GPS:
 
    The Pandora requires the Recommended minimum specific GPS/Transit data (GPRMC) and pulse per second (PPS)signal to synchronize to the GPS time. A customized connection is needed to establish the communication between the GPS receiver and the LiDAR:
 
@@ -804,8 +813,10 @@ The Pandora should be connected to the power supply, the computer (Ethernet for 
 
    ![Wiring_Schematics_pandora2](images/Pandora_PP6_wiring.png)
 
+   ![Pandora_pin](images/Pandora_pinout_table.png)
+
  ![online_icon](images/online_icon.png)Pandora Manual can be found on this webpage:
-[http://www.hesaitech.com](http://www.hesaitech.com)
+[http://www.hesaitech.com](http://www.hesaitech.com) (coming soon)
 
 ### Installing the Cameras
 
